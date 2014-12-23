@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+    <body>
+        <div class="local">
+                @Html.ActionLink(" ", "Index", "Home", null, new
+                    {
+                        style = "background: url('" + Url.Content("~/images/RU.png") + "'); display:inline-block; width:32px; height:32px;"
+                    }
+                     )
+                @Html.ActionLink(" ", "Index", "Home", null, new
+                    {
+                        style = "background: url('" + Url.Content("~/images/En.png") + "'); display:inline-block; width:32px; height:32px;"
+                    }
+                     )
+            </div>
+        <div id="content">
+            <header>
+                <div>
+                    @Html.ActionLink(" ", "Index", "Home", null, new
+                        {
+                            style = "background: url('" + Url.Content("~/images/logo.png") + "'); display:inline-block; width:76px; height:70px;"
+                        }
+                         )
+
+                    <p id="header">КУП «Юридическая служба» Васильева А.И.</p>
+                </div>
+            </header>
+            <div id="menu">
+                <div id="photoContainer">
+                </div>
+                <div id="controls">
+                    <ul>
+                        <li>@Html.ActionLink("Контакты", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Функции заказчика", "Customer", "Home")</li>
+                        <li>@Html.ActionLink("Функции тех. надзора", "Supervision", "Home")</li>
+                        <li>@Html.ActionLink("Аттестаты ISO", "Certificate", "Home")</li>
+                        <li>@Html.ActionLink("Задать вопрос", "Question", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="contents">
+                @RenderBody()
+                <div id="hFooter"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="sitemap">
+                <div class="left">
+                    <ul>
+                        <li>@Html.ActionLink("Главная", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Контакты", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Функции заказчика", "Customer", "Home")</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>@Html.ActionLink("Функции тех. надзора", "Supervision", "Home")</li>
+                        <li>@Html.ActionLink("Аттестаты ISO", "Certificate", "Home")</li>
+                        <li>@Html.ActionLink("Задать вопрос", "Question", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

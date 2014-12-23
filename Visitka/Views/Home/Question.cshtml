@@ -1,0 +1,19 @@
+﻿@model Visitka.Models.Question
+
+@{
+    ViewBag.Title = "title";
+}
+
+<h3>Задать вопрос</h3>
+
+ @using (Html.BeginForm())
+ { 
+    @Html.ValidationSummary()
+    <p>Ваше имя:</p>
+    <p>@Html.TextBoxFor(m => m.Name)</p>
+    <p>Ваш email:</p>
+    <p>@Html.TextBoxFor(m => m.Email)</p>
+    <p>Ваш вопрос:</p>
+    <p>@Html.TextAreaFor(m => m.Message, new { @cols = 80, @rows = 10 })</p>
+    <input type ="submit" value="Отправить" />
+ }

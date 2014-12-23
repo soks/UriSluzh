@@ -1,0 +1,136 @@
+﻿* {
+  margin: 0;
+}
+html, body{
+  height: 100%;
+}
+body {
+    background-color: #fff;
+    background-size: auto;
+    background-image: url('/images/bg.png');
+    background-repeat: repeat;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: #3b392e;
+}
+#header {
+    font-family: OldGuild;
+    color: #e54c10;
+    font-size: 50pt;
+    display: inline;
+    margin-left: 15px;
+}
+#menu {
+    /*margin-top: 50px;*/
+    height: 255px;
+}
+.local {
+    float: right;
+    display: inline;
+}
+#photoContainer {
+    float: left;
+    display: inline-block;
+    background-color: #3b392e;
+    background-image: url('/images/1.jpg');
+    background-repeat: no-repeat;
+    height: 254px;
+    width: 68%;
+    background-size: contain;
+}
+#photoContainer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#controls {
+    display: inline-block;
+}
+#controls ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 322px;
+}
+#controls ul li a{
+    font-family: bebas;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3b392e;
+    /*text-shadow: 1px 1px 0px #e54c10, 0 0 0 #e54c10;*/
+}
+#controls ul li a:hover{
+    /*text-decoration: underline;*/
+    text-shadow: 1px 1px 1px #e54c10, 0 0 0 #e54c10;
+}
+#controls ul li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#content {
+    min-height: 100%;
+}
+#hFooter { 
+    height: 120px;
+    clear: both;
+}
+#contents {
+    margin-top: 10px;
+}
+#footer {
+    background-color:  #3b392e;
+    height: 120px;
+    margin-top: -120px;
+}
+.contentText {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contentText ul {
+    list-style: none;
+}
+.contentText ul li {
+    position: relative;
+}
+.contentText ul li:after {
+    content: '\2714';
+    position: absolute;
+    top: -3px;
+    left: -15px;
+}
+.contentText ol LI {
+    display: block;
+    display: table-row;
+}
+.contentText OL {
+    counter-reset: item;
+    padding-left: 10px;
+    display: table;
+}
+
+.contentText ol LI:before{
+    content: counters(item, ".") " ";
+    counter-increment: item;
+    display: table-cell;
+    padding-right: .3em;
+}
+
+#footer .sitemap {
+    padding-top: 30px;
+    color: white;
+}
+
+#footer .sitemap a {
+    color: white;
+    text-decoration: none;
+    font-size:small;
+}
+
+#footer .left {
+    float: left;
+    margin-right: 50px;
+}
+
+#Footer .right {
+    float: left;
+}

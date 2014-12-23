@@ -9,8 +9,8 @@ body {
     background-size: auto;
     background-image: url('/images/bg.png');
     background-repeat: repeat;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
     color: #3b392e;
 }
 #header {

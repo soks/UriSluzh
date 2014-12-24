@@ -13,12 +13,15 @@ body {
     margin-right: 20%;
     color: #3b392e;
 }
-#header {
+header {
+    margin-bottom: 10px;
+}
+#header a {
     font-family: OldGuild;
     color: #e54c10;
     font-size: 40pt;
+    text-decoration: none;
     display: inline;
-    margin-left: 15px;
 }
 #menu {
     /*margin-top: 50px;*/
@@ -27,7 +30,7 @@ body {
 .local {
     float: right;
     display: inline;
-    margin-right: -20%;
+    margin-right: -32%;
 }
 #photoContainer {
     float: left;

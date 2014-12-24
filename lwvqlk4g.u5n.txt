@@ -1,0 +1,31 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+	modified:   Visitka/Content/Site.css
+	modified:   Visitka/Views/Home/Certificate.cshtml
+	modified:   Visitka/Views/Home/Contact.cshtml
+	modified:   Visitka/Views/Home/Index.cshtml
+	modified:   Visitka/Views/Shared/_Layout.cshtml
+	modified:   Visitka/Visitka.csproj
+	modified:   Visitka/Web.config
+	modified:   Visitka/bin/Visitka.dll
+	modified:   Visitka/bin/Visitka.pdb
+	modified:   Visitka/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+	modified:   Visitka/obj/Debug/Visitka.csproj.FileListAbsolute.txt
+	modified:   Visitka/obj/Debug/Visitka.csprojResolveAssemblyReference.cache
+	modified:   Visitka/obj/Debug/Visitka.dll
+	modified:   Visitka/obj/Debug/Visitka.pdb
+
+# Untracked files:
+#	Visitka.v11.suo
+#	Visitka/Images/ISO-eng.png
+#	Visitka/Images/ISO-rus.png
+#	Visitka/Images/Svidetelstvo_Yu_S.png
+#	Visitka/Images/attestat_YuS.png
+#	Visitka/Scripts/fliplightbox.min.js
+#
+

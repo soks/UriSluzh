@@ -230,10 +230,15 @@
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
+    <Content Include="Images\attestat_YuS.tif" />
     <Content Include="Images\En.png" />
     <Content Include="Images\bg.png" />
+    <Content Include="Images\ISO-eng.tif" />
+    <Content Include="Images\ISO-rus.tif" />
     <Content Include="Images\RU.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\Svidetelstvo_Yu_S.tif" />
+    <Content Include="Scripts\fliplightbox.min.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

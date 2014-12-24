@@ -57,7 +57,7 @@ namespace Visitka.Controllers
             if (ModelState.IsValid)
             {
                 var message = new MailMessage {From = new MailAddress("soks.cokc@Gmail.com")};
-                message.To.Add(new MailAddress("a.efimov@itransition.com"));
+                message.To.Add(new MailAddress("ur.slugba-info@mail.ru"));
                 message.Subject = index.Email;
 
                 // You need to use Index because that is the name declared above

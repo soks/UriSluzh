@@ -24,13 +24,7 @@
         <div id="content">
             <header>
                 <div>
-                    @Html.ActionLink(" ", "Index", "Home", null, new
-                        {
-                            style = "background: url('" + Url.Content("~/images/logo.png") + "'); display:inline-block; width:76px; height:70px;"
-                        }
-                         )
-
-                    <p id="header">КУП «Юридическая служба» Васильева А.И.</p>
+                    <p id="header"> @Html.ActionLink("КУП «Юридическая служба» Васильева А.И.", "Index", "Home")</p>
                 </div>
             </header>
             <div id="menu">

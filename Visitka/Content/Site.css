@@ -16,7 +16,7 @@ body {
 #header {
     font-family: OldGuild;
     color: #e54c10;
-    font-size: 50pt;
+    font-size: 40pt;
     display: inline;
     margin-left: 15px;
 }
@@ -27,6 +27,7 @@ body {
 .local {
     float: right;
     display: inline;
+    margin-right: -20%;
 }
 #photoContainer {
     float: left;

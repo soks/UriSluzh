@@ -68,6 +68,7 @@ namespace Visitka.Controllers
                     Credentials = new NetworkCredential("soks.cokc@gmail.com", "soks1234"),
                     EnableSsl = true
                 };
+                client.EnableSsl = true;
                 client.Send(message);
                 return View("Index", index);
             }

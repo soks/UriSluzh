@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: OldGuild; /* Гарнитура шрифта */
-    src: url(fonts/OldGuild.ttf); /* Путь к файлу со шрифтом */
+    src: url('fonts/OldGuild.ttf'); /* Путь к файлу со шрифтом */
    }
 * {
   margin: 0;

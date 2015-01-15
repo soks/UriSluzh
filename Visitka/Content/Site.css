@@ -91,6 +91,7 @@ header {
     margin-top: -120px;
 }
 .contentText {
+    text-align: justify;
     margin-left: 10px;
     margin-top: 10px;
 }

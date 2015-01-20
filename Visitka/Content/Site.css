@@ -15,6 +15,8 @@ body {
     background-image: url('/images/bg.png');
     background-repeat: repeat;
     color: #3b392e;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
 }
 #separator {
     min-height: 100%;
@@ -41,16 +43,17 @@ header {
 .local {
     float: right;
     display: inline;
+    /*margin-right: -150px*/
 }
 #photoContainer {
     float: left;
     display: inline-block;
     background-color: #3b392e;
-    background-image: url('/images/1.jpg');
+    background-image: url('/images/KUMNvq2T_ZU.jpg');
     background-repeat: no-repeat;
     height: 254px;
-    width: 68%;
-    background-size: contain;
+    width: 800px;
+    background-size: cover;
 }
 #photoContainer img {
     max-width: 100%;

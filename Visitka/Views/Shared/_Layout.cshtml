@@ -8,24 +8,24 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-    <body>
-        <div class="local">
-            @Html.ActionLink(" ", "Index", "Home", null, new
+<body>
+    <div class="local">
+        @Html.ActionLink(" ", "Index", "Home", null, new
                 {
                     style = "background: url('" + Url.Content("~/images/RU.png") + "'); display:inline-block; width:32px; height:32px;"
                 }
                  )
-            @Html.ActionLink(" ", "Index", "Home", null, new
+        @Html.ActionLink(" ", "Index", "Home", null, new
                 {
                     style = "background: url('" + Url.Content("~/images/En.png") + "'); display:inline-block; width:32px; height:32px;"
                 }
                  )
-        </div>
-        <div id="separator">
+    </div>
+    <div id="separator">
         <div id="content">
             <header>
                 <div>
-                    <p id="header"> @Html.ActionLink("КУП «Юридическая служба» Васильева А.И.", "Index", "Home")</p>
+                    <p id="header">@Html.ActionLink("КУП «Юридическая служба» Васильева А.И.", "Index", "Home")</p>
                 </div>
             </header>
             <div id="menu">
@@ -44,8 +44,8 @@
 
             <div id="contents">
                 @RenderBody()
-                <div id="hFooter"></div>
             </div>
+            <div id="hFooter"></div>
         </div>
         <div id="footer">
             <div class="sitemap">
@@ -65,20 +65,20 @@
                 </div>
             </div>
         </div>
-        </div>
-        @Scripts.Render("~/bundles/jquery")
-        @RenderSection("scripts", required: false)
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', 'UA-58621484-1', 'auto');
-            ga('send', 'pageview');
+        ga('create', 'UA-58621484-1', 'auto');
+        ga('send', 'pageview');
 
-        </script>
-    </body>
+    </script>
+</body>
 </html>

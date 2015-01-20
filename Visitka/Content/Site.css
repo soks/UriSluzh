@@ -33,7 +33,6 @@ header {
 .local {
     float: right;
     display: inline;
-    margin-right: -32%;
 }
 #photoContainer {
     float: left;

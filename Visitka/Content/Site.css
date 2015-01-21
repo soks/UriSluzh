@@ -139,7 +139,7 @@ header {
 }
 
 #footer .sitemap a {
-    color: white;
+    /*color: white;*/
     text-decoration: none;
     font-size:small;
 }

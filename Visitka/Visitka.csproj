@@ -231,6 +231,7 @@
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
+    <Content Include="Images\3_v1.jpg" />
     <Content Include="Images\attestat_YuS.png" />
     <Content Include="Images\En.png" />
     <Content Include="Images\bg.png" />

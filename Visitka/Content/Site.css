@@ -50,45 +50,48 @@ header {
 }
 #photoContainer {
     float: left;
-    display: inline-block;
+    display: inline;
     background-color: #3b392e;
-    background-image: url('/images/KUMNvq2T_ZU.jpg');
+    background-image: url('/images/3_v1.jpg');
     background-repeat: no-repeat;
     height: 254px;
     width: 800px;
-    background-size:auto;
+    background-size: cover;
+    background-position: center center;
 }
 #photoContainer img {
     max-width: 100%;
     max-height: 100%;
 }
 #controls {
+    float: left;
+    width: 10%;
+    display: inline;
+    height: 100%;
+    text-indent: 0;
+    padding: 0;
     margin-left: 10px;
-    white-space: nowrap;
-    /*display: inline-block;*/
 }
 #controls ul {
     list-style-type: none;
-    margin-left: 10px;
     padding: 0;
     height: 322px;
     min-width: 224px;
 }
+#controls li {
+    
+}
 #controls ul li a{
-    margin-left: 10px;
     font-family: bebas;
     text-decoration: none;
     font-weight: bold;
     color: #3b392e;
-    /*text-shadow: 1px 1px 0px #e54c10, 0 0 0 #e54c10;*/
 }
 #controls ul li a:hover{
-    /*text-decoration: underline;*/
     text-shadow: 1px 1px 1px #e54c10, 0 0 0 #e54c10;
 }
 #controls ul li {
     margin-bottom: 10px;
-    margin-left: 10px;
 }
 #content {
     min-height: 100%;
